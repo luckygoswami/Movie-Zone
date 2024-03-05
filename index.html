@@ -45,6 +45,7 @@
             aria-label="search movies"
             placeholder="search any movie..."
             class="search-field"
+            autocomplete="off"
             search-field
           />
           <img
@@ -55,7 +56,39 @@
             class="leading-icon"
           />
         </div>
+        <button class="search-btn" search-toggler>
+          <img
+            src="assets/images/close.png"
+            alt="close search box"
+            height="24"
+            width="24"
+          />
+        </button>
       </div>
+      <button class="search-btn" search-toggler menu-close>
+        <img
+          src="assets/images/search.png"
+          alt="open search box"
+          width="24"
+          height="24"
+        />
+      </button>
+      <button class="menu-btn" menu-btn menu-toggler>
+        <img
+          class="menu"
+          src="assets/images/menu.png"
+          height="24"
+          width="24"
+          alt="open menu "
+        />
+        <img
+          class="close"
+          src="assets/images/menu-close.png"
+          height="24"
+          width="24"
+          alt="close menu "
+        />
+      </button>
     </header>
   </body>
 </html>
