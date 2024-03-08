@@ -106,11 +106,9 @@ function heroBanner({ results: movieList }) {
 
         <p class="genre">${genreList.asString(genre_ids)}</p>
 
-        <p class="banner-text">
-         ${overview}
-        </p>
+        <p class="banner-text">${overview}</p>
 
-        <a href="./detail.html" class="btn">
+        <a href="./detail.html" class="btn" onclick="getMovieDetail(${id})">
           <img
             src="assets/images/play_circle.png"
             alt="play circle"
